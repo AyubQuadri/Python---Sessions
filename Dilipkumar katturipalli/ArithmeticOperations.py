@@ -1,19 +1,23 @@
-#Arithmetic Operations
-a = 21
-b = 10
-c = 0
-c = a + b #addition operator
-print ("Line 1 - Value of c is ", c)
+#Bitwise Operations
 
-c=a-b #subtraction operator
-print ("Line 2 - value of c is",c)
+a=60
+b=25
+c=0
+c=a&b #& Operand
+print ("Value of C is",c)
 
-c=a%b #modulus operator prints the value of the remainder
-print ("Line 3 - value of C is",c)
+c=a|b
+print("value of C is",c)
 
-c=a/b #divide operation
-print ("Line 4 - Value of C is",c)
+c=a^b
+print("value of c is",c)
 
-c=a*b
-print("Line 5 - Value of C is",c )
+c=~a
+print("value of C is",c)
+
+c=a<<1
+print ("Value of C is",c)
+
+c=a>>2
+print("Value of c is",c)
 
