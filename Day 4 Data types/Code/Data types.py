@@ -18,7 +18,7 @@ type(d)
 # boolean
 a = True
 b = False
-
+a
 # a =1, b= 0 
 c = a + b # c = 1 + 0
 c
@@ -48,6 +48,7 @@ T = ('abc', 23, complex(2,9), False)
 T
 T[1]
 
+T[1] = 'xyz'
 
 # Dictonary 
 my_dict = {'name': 'John', 1: [2, 4, 3]}
@@ -63,15 +64,16 @@ my_dict['Addr'][0]
 # tuple, str, frozen set
 T = ('abc', 23, complex(2,9), False)
 T[0]= 'xyz'
-
+T
 # strings
 s= 'abc'
 s= s+'d'
-s[4]='d'
+s[5]='d'
 
 # frozen set
 a = ('abc',122, 89.90, complex(2,5), True)
 a = frozenset(a)
+
 a[1]= 'xyz'
 
 # Implicit Explicit Conversion
@@ -89,3 +91,5 @@ b
 
 c = float(89)
 c
+
+
