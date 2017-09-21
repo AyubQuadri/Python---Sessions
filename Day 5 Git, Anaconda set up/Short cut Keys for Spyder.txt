@@ -1,0 +1,12 @@
+Spyder Shortcut Keys
+
+The following is a list of some useful spyder shortcut keys which makes you more productive.
+
+1. Press F5 to run the entire script
+2. Press F9 to run selection or line 
+3. Press Ctrl + 1 to comment / uncomment
+4. Go to front of function and then press Ctrl + I to see documentation of the function
+5. Run %reset -f to clean workspace
+6. Ctrl + Left click on object to see source code 
+7. Ctrl+Enter executes the current cell.
+8. Shift+Enter executes the current cell and advances the cursor to the next cell
