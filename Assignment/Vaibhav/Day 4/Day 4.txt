@@ -1,0 +1,55 @@
+# Numeric
+a = 5
+x = 10 + a
+x
+
+#Float
+c=10.05
+type(c)
+
+# Float
+c = 01.34
+type(c)
+
+#Complex
+z = complex(9,0)
+type(z)
+z
+#Boolean
+a = 1
+b = 0
+c = a + b
+c
+
+#Sets
+p=set(["xyz",1,5,2,2,1,5,"pqr"])
+p
+ 
+q=set([7,8,7,8,'cvb',complex(4,9),25])
+q
+type(q)
+#q[6]
+
+#tuple
+s=(5,6,'asd','asd',45.2,complex(2,5),87.012)
+s[2],s[5]
+type(s)
+
+
+#Frozenset
+z=(45.2,32,complex(4,9),'abc','program')
+frozenset(z)
+
+
+#Dictionary
+my_dict={'name':'sai','Age':40,'SlNo':1}
+my_dict['name']
+my_dict['Age']
+my_dict={'Address':'JNTU'}
+my_dict['Address']
+
+
+#List
+L=['pqr',5,complex(3,5),5.7]
+L[2]
+L[2]=75

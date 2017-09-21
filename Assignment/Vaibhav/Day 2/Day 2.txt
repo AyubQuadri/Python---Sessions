@@ -1,0 +1,147 @@
+
+			Assignment-2
+
+
+1.Write a code to List out the difference between bitwise ‘AND’ and logical & operators.
+Ans: The Bitwise AND operator results in the format of binary code and whereas Logical AND(&) operator results the value in the format of boolean like result value is
+False if both the operands are false,if operands are true then the result is True.
+
+
+2.Write a code to take input from user and perform
+a. Arithmetic operation
+b. Logical operation
+c. Relational operation
+d. bitwise operation
+c. Assignment operation
+
+
+# read the values form users
+
+
+
+print('Enter the number')
+
+num=int(input())
+
+print('enter another number')
+
+num1=int(input())
+
+num2=num+num1
+
+print(num2)
+num3=num-num1 
+print(num3)
+
+
+#Arthematic operators
+b=10
+a=15
+#Addition
+c=a+b
+print("the value of b is:", c)
+#Subtraction
+c=b-a
+print("The value of c is: ", z)
+#Division
+c=b/a
+print("The valus of c is:", c)
+c=a%b
+print("The value of c is", c)
+#Exponent
+c=a**2
+print("The value of c is", c)
+
+
+#Logical operators
+a = True
+b = False
+
+c = a and b
+print("Line - 1 value of c is:",c)                 #Result is False
+
+c = a or b
+print("Line - 2 value of c is:",c)                  #Result is True
+
+c = not a
+print("Line - 3 value of c after not operation is:",c)    #Result is False
+
+
+
+#Relational operators
+y=12
+z=15
+if(y==z):
+    print("Both are equal")
+else:
+    print("Both are not equal")
+if(z!=y):
+    print("Both are same")
+else:
+    print("Both are not same")
+if(y>13):
+    print("Y is greater")
+else:
+    print("Y is lesser")
+if(z<y):
+    print("Z is greater than Y")
+else:
+    print("Z is lesser than Y")
+if(y>=25):
+   print("Yes")
+else:
+    print("No")
+if(y<=z):
+    print("Yes")
+else:
+    print("No")
+
+
+
+#BitWise operators
+a=35                                #00100011
+b=58                                #00111100
+#c=0
+c = a & b;
+print("The value of c is:", c)
+
+c = a | b;
+print("The value of c is:",c)
+
+c = a ^ b;
+print("The value of c is:",c)
+
+c = ~a;
+print("The value of c is:",c)
+
+c = a>>2;
+print("The value of c is:",c)
+
+c = a<<1;
+print("The value of c is:",c)
+
+
+
+
+#Assignment operators
+a=10
+b=12
+
+c = a + b
+print("Value of c:",c)
+
+c +=10
+print("Value of c:",c)
+
+c -=30
+print("Value of c is:",c)
+
+c *=2
+print("Value of c is:",c)
+
+c //=2
+print("Value of c is:",c)
+
+c %=4
+print("Value of c is:",c)
+
