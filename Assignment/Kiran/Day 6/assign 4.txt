@@ -1,0 +1,12 @@
+string = input('give the string')
+
+final_string=""
+count = len(string)
+
+for var in range(0,count):
+  
+    if(var%2==1):
+
+        final_string+=string[var]
+
+print(final_string)

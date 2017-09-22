@@ -1,0 +1,7 @@
+string = input('give the string')
+
+print (string.startswith('hel'))
+
+print (string.startswith('el',1,3))
+
+print (string.startswith('el',0,4))

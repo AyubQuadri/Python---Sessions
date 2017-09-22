@@ -1,0 +1,40 @@
+#1.Write a program to see how single condition and multiple condition based statement works. (hint: single condition based if-else)
+
+rname0 = "Raghu"
+if rname0 == "Ayub":
+    print("You name is not correct")
+
+rname1 = "Raghu"
+if rname1 == "Ayub":
+    print("You name is not correct")
+else:
+    print("You are right")
+
+rname2 = "Raghavender Rao"
+rname3 = input()
+if rname2 == rname3:
+	print("Your name is updated correctly")
+elif rname3 == "Male":
+	print("You have typed gender instaed of name, please check and update it correctly")
+else:
+	print("You name is not updated correctly in first attmept")
+
+#2.Write a program to differentiate between for loop and while loop
+    # For loops
+    for x in range(0,25):
+        print(x)
+    
+    # While Loop
+    x = 10
+    while x <= 20:
+        print(x)
+        x += 1
+    print(x)
+
+3.Write a program to see how break, continue and pass works
+
+rname = 4
+if rname>5:
+    print("Please check the number")
+else:
+    print("You are correct")
