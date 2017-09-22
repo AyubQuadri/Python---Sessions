@@ -26,6 +26,8 @@ Name.count('l')
 #(ii)find
 word.find('o')
 Name.find('y')
+word.find('l')
+word.f
 
 #(iii)possition 
 word.index('W')
@@ -70,6 +72,10 @@ word.replace('Hello','Goodbye')
 
 # Strip -> removing spaces
 '       Ayub Quadri            '.strip()
+word.strip()
+
+a= '       Ayub      '
+a.strip()
 '       Alice      '.rstrip()
 '    Alice'.lstrip()
 
@@ -81,3 +87,11 @@ a + b
 (a, b)
 
 #
+''.join(reversed(word))
+''.join(reversed(word))
+
+a = '  abc '
+a.isspace()
+a.isalpha()
+'abc1243'.isalnum()
+'abc'.isalpha()
