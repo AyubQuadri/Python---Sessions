@@ -1,0 +1,15 @@
+string = input('give the string')
+
+count = len(string)
+
+new_dict = {}
+
+for var in range(0,count):
+
+  count1 = string.count(string[var])
+
+  new_dict[string[var]] = count1
+
+print(new_dict)  
+  
+  

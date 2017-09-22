@@ -35,8 +35,8 @@ a = 6
 g = r+a
 print(g)
 # Arithmetic operations -
-r1 = 6
 a1 = 5.5
+r1 = 6
 g1 = r1-a1
 print(g1)
 # Arithmetic operations *
@@ -197,9 +197,6 @@ f40 = 2
 f41 = 9
 f41//=f40
 print(f41)
-
-
-
 
 
 
