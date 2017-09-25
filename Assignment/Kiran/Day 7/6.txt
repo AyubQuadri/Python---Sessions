@@ -1,0 +1,5 @@
+alist =[1,2,3,4,5]
+amax = min(alist)
+alist.remove(amax)
+smax = min(alist)
+print(smax)

@@ -1,0 +1,6 @@
+alist =['a','b','c','d','e','f']
+blist=[]
+blist.append(alist.remove('a'))
+blist.append(alist.remove('e'))
+blist.append(alist.remove('f'))
+print(alist)

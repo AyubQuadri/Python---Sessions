@@ -1,0 +1,3 @@
+new_list =[1,2,3,45,5]
+final_sum = sum(new_list)
+print(final_sum)
