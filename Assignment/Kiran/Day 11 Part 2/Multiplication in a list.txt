@@ -1,0 +1,12 @@
+def val(list1):
+    ans = list1[0] * list1[1]
+    length = len(list1) - 2
+    
+    for var in range(0,length):
+        ans = ans * list1[2+var]
+    print("The value is :",ans)    
+        
+        
+    
+list1 = [8,2,3,-1,7]
+val(list1)

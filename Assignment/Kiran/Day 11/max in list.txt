@@ -1,6 +1,0 @@
-def val(list):
-    max1 = max(list)
-    print('the max in list is' ,max1)
-    
-fib = [1,2,3,4,5,6,7,8]
-val(fib)
