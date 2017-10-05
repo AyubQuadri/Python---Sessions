@@ -1,0 +1,11 @@
+def val(fib1,fib2):
+    len1 = len(fib1)
+    len2 = len(fib2)
+    if(len1 >= 1 ):
+        print('the  list is not empty')
+    if(len2 == 0):
+        print('the list is empty')
+    
+fib1 = [1,2,3,4,4,5,6,5,7,8,8,8]
+fib2 = []
+val(fib1,fib2)
