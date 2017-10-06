@@ -1,0 +1,6 @@
+def val(list1):
+    ans = max(list1)
+    print('the max value in list is ',ans)
+    
+list1 = [1,8,4]
+val(list1)

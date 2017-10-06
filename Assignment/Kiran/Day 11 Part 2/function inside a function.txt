@@ -1,0 +1,11 @@
+def val(num):
+    
+    if(num==1):
+        return 1
+    else:
+        return num * val(num-1)
+        
+        
+    
+ans = val(5)
+print("the factorial is ", ans)

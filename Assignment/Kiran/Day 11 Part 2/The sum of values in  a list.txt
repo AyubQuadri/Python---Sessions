@@ -1,0 +1,6 @@
+def val(list1):
+    ans = sum(list1)
+    print('the sum of values in list is ',ans)
+    
+list1 = [8,2,3,0,7]
+val(list1)

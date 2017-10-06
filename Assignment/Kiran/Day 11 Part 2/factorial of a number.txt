@@ -1,0 +1,9 @@
+import math
+
+def val(num):
+    ans = math.factorial(num)
+    print("The value is :",ans)    
+        
+        
+    
+val(5)
