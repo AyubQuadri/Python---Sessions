@@ -49,3 +49,32 @@ a = 3
 print(a, id(a))
 doubled_value = double_it(a)
 print(doubled_value,id(doubled_value))
+
+a=15
+def score(a):
+    a= 5
+    print('in the function')
+    print(a, id(a))
+
+print('before calling fucntion')
+print(a, id(a))
+score(a)
+print('after calling function a', a)
+print(id(a))    
+
+
+# recursive
+
+def recursive(x):
+    if x==1:
+        return 1
+    else:
+        print('value of x',x)
+        return(x*recursive(x-1))
+
+print(recursive(5))
+
+power = lambda x: x+x
+print(power(['ab','bc']))
+
+import functool form reduce 
